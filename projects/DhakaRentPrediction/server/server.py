@@ -13,7 +13,7 @@ def serve_static(filename):
 def home():
     return app.send_static_file("app.html")
 
-@app.route('/api/get_location_names', methods=['GET'])
+@app.route('/get_location_names', methods=['GET'])
 def get_location_names():
     response = jsonify({
         'Locations': util.get_location_names()
@@ -22,7 +22,7 @@ def get_location_names():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@app.route('/api/predict_home_rent', methods=['POST'])
+@app.route('/predict_home_rent', methods=['GET','POST'])
 def predict_home_rent():
     Location = request.form['Location']
     Area_sqft = float(request.form['Area_sqft'])
