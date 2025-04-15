@@ -1,6 +1,10 @@
 from flask import Flask, request, jsonify
 import util
-app = Flask(__name__)
+app = Flask(__name__, static_folder="../client", template_folder="../client")
+
+@app.route("/")
+def home():
+    return app.send_static_file("app.html")
 
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
