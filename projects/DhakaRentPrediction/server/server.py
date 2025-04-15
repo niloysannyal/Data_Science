@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
+from flask import send_from_directory
 from server import util
+
 app = Flask(__name__, static_folder="../client", template_folder="../client")
 
 @app.route('/static/<path:filename>')
