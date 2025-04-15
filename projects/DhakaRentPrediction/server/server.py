@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 from server import util
 app = Flask(__name__, static_folder="../client", template_folder="../client")
 
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory(os.path.join(app.static_folder), filename)
+
 @app.route("/")
 def home():
     return app.send_static_file("app.html")
