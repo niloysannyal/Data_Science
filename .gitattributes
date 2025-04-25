@@ -1,3 +1,0 @@
-filter=lfs diff=lfs merge=lfs -text
-projects/Project1/server/artifacts/DhakaRentPrediction.pkl filter=lfs diff=lfs merge=lfs -text
-projects/Project1/model/DhakaRentPrediction_final.pkl filter=lfs diff=lfs merge=lfs -text
