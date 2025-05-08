@@ -56,11 +56,11 @@ FootballerFaceRecognition/
 ## 🚀 How to Run Locally
 1. Clone the repository
    ```bash
-   git clone --no-checkout https://github.com/niloysannyal/Data_Science.git
+   git clone https://github.com/niloysannyal/Data_Science.git
 
 2. Navigate to the project folder
    ```bash
-   cd FootballerFaceRecognition
+   cd Data_Science/projects/FootballerFaceRecognition
 
 3. Install the required dependencies for the backend
    ```bash
