@@ -1,30 +1,63 @@
+# 🏠 Dhaka Home Rent Prediction
+
 [![Live](https://img.shields.io/badge/LIVE-VISIT%20NOW-red?style=for-the-badge&logo=firefox)](https://dhakahomerentprediction.onrender.com/)
 
-![Screenshot (173)](https://github.com/user-attachments/assets/40e7e80f-ff39-4cd1-bee7-5e01129ee024)
+![Screenshot](https://github.com/user-attachments/assets/40e7e80f-ff39-4cd1-bee7-5e01129ee024)
 
-This data science project is built with step by step process of how to build a real estate rent prediction website. I built a model using sklearn and Random Forest Regressor using Dhaka home rent dataset from kaggle.com. Second step was to write a python flask server that uses the saved model to serve http requests. Third component was the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price.
+## 📌 About the Project
+This data science project demonstrates a full-stack machine learning pipeline for predicting house rents in Dhaka. It includes:
 
-During model building I covered almost all data science concepts such as:
+- 📊 A machine learning model built using **Random Forest Regressor**
+- 🌐 A **Flask** server to handle predictions
+- 💻 A responsive **web frontend** for user input and prediction display
 
-- Data load and cleaning
+## 💡 Key Features
+- User inputs: Area (Square feet), Bedrooms, Bathrooms, Location.
+- Real-time rent prediction
+- End-to-end integration: Model → Server → Frontend
+
+## 📁 Folder Structure
+```
+DhakaHomeRentPrediction/
+├── client/      # HTML/CSS/JS website frontend
+├── server/      # Flask backend API
+├── model/       # Model training notebook, data, and artifacts
+├── requirements.txt
+├── Procfile
+└── README.md
+```
+
+## 🧠 Concepts Covered
+- Data loading and cleaning
 - Outlier detection and removal
 - Feature engineering
 - Dimensionality reduction
-- Gridsearchcv for hyperparameter tunning
-- K fold cross validation etc.
+- Hyperparameter tuning with GridSearchCV
+- K-Fold Cross Validation
 
-Here is the folder structure:
+## 🛠️ Tech Stack
+- Python (Pandas, NumPy, Scikit-learn, Matplotlib)
+- Flask
+- HTML / CSS / JavaScript
+- Jupyter Notebook
+- VS Code / PyCharm
+- Render (for deployment)
 
-- client : This contains ui website code
-- server: Python flask server
-- model: Contains datafile and python notebook for model building and generated models and artifacts
+## 🚀 How to Run Locally
 
-Technology and tools wise this project covers:
+1. Clone the repository
+   ```bash
+   git clone https://github.com/niloysannyal/Data_Science.git
+2. Nevigate to the project folder
+   ```bash
+   cd Data_Science/projects/DhakaHomeRentPrediction
+3. Install the required dependencies for the backend
+   ```bash
+   cd server
+   pip install -r requirements.txt
+4. Start the Flask server
+   ```bash
+   python server.py
+5. Open the frontend
+   - Open `client/app.html` in your browser.
 
-1. Python
-2. Numpy and Pandas for data cleaning
-3. Matplotlib for data visualization
-4. Sklearn for model building
-5. Jupyter notebook, visual studio code and pycharm as IDE
-6. Python flask for http server
-7. HTML/CSS/Javascript for UI
