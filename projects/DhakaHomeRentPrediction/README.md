@@ -53,10 +53,10 @@ DhakaHomeRentPrediction/
    cd Data_Science/projects/DhakaHomeRentPrediction
 3. Install the required dependencies for the backend
    ```bash
-   cd server
    pip install -r requirements.txt
 4. Start the Flask server
    ```bash
+   cd server
    python server.py
 5. Open the frontend
    - Open `client/app.html` in your browser.
