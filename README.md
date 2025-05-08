@@ -7,12 +7,15 @@ This is a central hub for my learning journey and projects in **Machine Learning
 
 ## 🗂️ Repository Structure
 
+```
 Data_Science/
-├── 📁 Data/ # Raw and processed datasets (CSV, Excel, images, etc.)
-├── 📁 Machine Learning/ # ML practice notebooks (regression, classification, etc.)
-├── 📁 Deep Learning/ # DL practice notebooks (CNN, ANN, etc.)
-├── 📁 Notebooks/ # Numpy, Pandas, Matplotlib, and basic ML practice
-└── 📁 projects/ # End-to-end data science projects
+├── 📁 Data/              # Raw and processed datasets (CSV, Excel, images, etc.)
+├── 📁 Machine Learning/  # ML practice notebooks (regression, classification, etc.)
+├── 📁 Deep Learning/     # DL practice notebooks (CNN, ANN, etc.)
+├── 📁 Notebooks/         # Numpy, Pandas, Matplotlib, and basic ML practice
+└── 📁 projects/          # End-to-end data science projects
+```
+
 
 
 ---
