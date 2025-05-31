@@ -1,0 +1,8 @@
+word_count:7   Buyer: Hi, how much is this T-shirt?
+word_count:3   Seller: It's $20.
+word_count:8   Buyer: Do you have it in medium size?
+word_count:11   Seller: Yes, we do. Would you like to try it on?
+word_count:6   Buyer: Sure, where's the fitting room?
+word_count:8   Seller: Right over there, next to the counter.
+word_count:2   Buyer: Thanks!
+word_count:3   Seller: You're welcome!

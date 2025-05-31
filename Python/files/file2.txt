@@ -1,0 +1,8 @@
+Buyer: Hi, how much is this T-shirt?
+Seller: It's $20.
+Buyer: Do you have it in medium size?
+Seller: Yes, we do. Would you like to try it on?
+Buyer: Sure, where's the fitting room?
+Seller: Right over there, next to the counter.
+Buyer: Thanks!
+Seller: You're welcome!
