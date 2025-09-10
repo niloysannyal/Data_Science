@@ -1,3 +1,6 @@
 Deep Learning/Word2Vec/*.json
+temp_auto_push.bat
 Deep Learning/Word2Vec/*.json
 Deep Learning/tf_serving/
+.gitignore
+temp_interactive_push.bat
